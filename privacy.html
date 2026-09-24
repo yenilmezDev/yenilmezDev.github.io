@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>H Harness · Privacy policy</title>
+<style>
+  :root { --bg: #0b0b0d; --text: #ededf0; --muted: #9c9ca3; --line: #26262c; }
+  @media (prefers-color-scheme: light) { :root { --bg: #fafafa; --text: #111114; --muted: #5a5a63; --line: #e4e4e8; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 20px 96px; }
+  h1 { font-size: 32px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin: 32px 0 6px; }
+  p, li { color: var(--muted); }
+  a { color: var(--text); }
+  footer { margin-top: 48px; font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p>H Harness · last updated 24 September 2026</p>
+
+  <h2>What H Harness is</h2>
+  <p>H Harness is an internal market research tool used only by its developer's team to research and plan our own mobile
+    apps. It is not a public service and has no end users outside that team.</p>
+
+  <h2>Google user data we access</h2>
+  <p>When the Google Ads account owner signs in and grants access, H Harness uses the Google Ads API with the
+    <code>https://www.googleapis.com/auth/adwords</code> scope to read Keyword Planner metrics (average monthly searches,
+    competition level and top-of-page bid ranges) for keywords we research, and to list the Google Ads accounts the signed-in
+    user can access so the right account can be chosen. It does not read campaign content, billing data, contacts, email
+    or any other Google user data, and it never changes anything in a Google Ads account.</p>
+
+  <h2>How we use it</h2>
+  <p>Keyword metrics are used only to estimate demand and advertising cost for app ideas we evaluate internally. They are
+    not used for advertising profiles, not sold and not shared with third parties.</p>
+
+  <h2>Storage and security</h2>
+  <p>The OAuth refresh token is stored in the operating system's secure keychain on the developer's own computer. Retrieved
+    keyword metrics are stored as files on the same machines. Nothing is stored on servers operated for H Harness.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Keyword metrics are kept as long as the related research is useful and deleted when it is not. Access can be revoked
+    at any time at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>; revoking
+    immediately stops H Harness from reading any further data.</p>
+
+  <h2>Limited use</h2>
+  <p>H Harness's use and transfer of information received from Google APIs adheres to the
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    including the Limited Use requirements.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: open an issue or contact the maintainer via
+    <a href="https://github.com/huseyinyenilmez-dotcom">github.com/huseyinyenilmez-dotcom</a>.</p>
+
+  <footer><a href="index.html">H Harness</a></footer>
+</main>
+</body>
+</html>
